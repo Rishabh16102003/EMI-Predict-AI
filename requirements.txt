@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+mlflow
+matplotlib
+seaborn
+plotly
+joblib
+pickle-mixin
