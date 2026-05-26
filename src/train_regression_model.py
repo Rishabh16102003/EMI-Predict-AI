@@ -10,7 +10,7 @@ import pickle
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 
-data=pd.read_csv('../data/emi_cleaned.csv')
+data=pd.read_csv('/data/emi_cleaned.csv')
 
 encoded_data=feature_encoder(data)
 selected_features=feature_select_regression(encoded_data)

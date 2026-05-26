@@ -109,8 +109,7 @@ if submitted:
     elif employment_type=='Self-Employed':
         emp_type=[0,0,1]
     elif employment_type=='Private':
-        emp_type=[0,1,0]
-                    
+        emp_type=[0,1,0]                   
     emi_scene=[]
     if emi_scenario=='Online Shopping Emi':
         emi_scene=[1,0,0,0,0]
@@ -137,7 +136,7 @@ if submitted:
     "requested_tenure": [req_tenure],
     "employment_type_Government": [emp_type[0]],
     "employment_type_Private": [emp_type[1]],
-    "employment_Self_Employed": [emp_type[2]],
+    "employment_type_Self-employed": [emp_type[2]],
     "emi_scenario_E-commerce Shopping EMI": [emi_scene[0]],
     "emi_scenario_Education EMI": [emi_scene[1]],
     "emi_scenario_Home Appliances EMI": [emi_scene[2]],
